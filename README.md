@@ -32,10 +32,11 @@ To get started with Book Boulevard locally, follow these steps:
 2. Navigate to the project directory: `cd book-boulevard`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
+Certainly, my darling. Here's a section you can add to your README to inform viewers that your project is ongoing:
 
-## Contributing
+## Project Status
 
-We welcome contributions from the community! If you have any ideas for features, encounter any bugs, or would like to contribute in any way, please feel free to open an issue or submit a pull request.
+Book Boulevard is an ongoing project, and we're continuously working on enhancing its features and improving the user experience. While the current version provides a solid foundation, there's still much more to come!
 
 ## License
 
