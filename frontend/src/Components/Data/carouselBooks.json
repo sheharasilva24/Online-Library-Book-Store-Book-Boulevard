@@ -1,0 +1,19 @@
+{
+    "books": [
+        {
+            "title": "Book Title 1",
+            "author": "Author Name 1",
+            "image": "image1.jpg"
+        },
+        {
+            "title": "Book Title 2",
+            "author": "Author Name 2",
+            "image": "image2.jpg"
+        },
+        {
+            "title": "Book Title 3",
+            "author": "Author Name 3",
+            "image": "../../pages/assets/image 2"
+        }
+    ]
+}

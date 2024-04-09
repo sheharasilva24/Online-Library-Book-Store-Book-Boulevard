@@ -1,0 +1,136 @@
+.nav-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8C31FF;
+  padding: 12px;
+  color: white;
+}
+
+.nav-site-title {
+  margin-left: 72px;
+  text-decoration: none;
+  color: var(--Text-Color, #FFF4DF);
+  text-align: center;
+  font-family: Karantina;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-section left {
+  color: var(--Text-Color, #FFF4DF);
+  text-align: center;
+  font-family: Karantina;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: var(--Text-Color, #FFF4DF);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-profile-container {
+  display: flex;
+  align-items: center;
+  margin-right: 72px;
+}
+
+
+.username {
+  color: var(--Text-Color, #FFF4DF);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-menu-toggle {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.nav-section.center {
+  flex: 1;
+  /* Take up remaining space */
+  display: flex;
+  justify-content: center;
+  /* Center the items horizontally */
+  align-items: center;
+  /* Center the items vertically */
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-site-title {
+    margin: 0 0 10px 0;
+    /* Adjust for mobile */
+  }
+
+  .center,
+  .right {
+    order: 3;
+    /* Move navigation and profile to the bottom */
+    width: 100%;
+    justify-content: space-around;
+    /* Adjust layout for smaller screens */
+  }
+
+  .nav-menu-toggle {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+
+  }
+}

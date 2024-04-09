@@ -1,0 +1,361 @@
+.check-checkout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-color, #19181d);
+}
+
+.check-checkout-content {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 100px;
+    margin-left: 220px;
+    margin-right: 220px;
+    gap: 460px;
+    margin-top: 80px;
+    margin-bottom: 10%;
+}
+
+.check-checkout-details {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    width: 552px;
+    max-width: 100%;
+    font-size: 18px;
+}
+
+.check-checkout-title {
+    font: 700 40px Roboto, sans-serif;
+    color: var(--text-color, #fff4df);
+}
+
+.check-checkout-description {
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    color: var(--text-color, #fff4df);
+}
+
+.check-subscription-due {
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.check-subscription-due-lable {
+    color: var(--Text-Color, #FFF4DF);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.check-subscription-due-price {
+    color: var(--Text-Color, #FFF4DF);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Open Sans, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    text-align: right;
+}
+
+.check-subscription-due-text {
+    color: var(--Text-Color, #FFF4DF);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.check-user-info {
+    display: flex;
+    gap: 20px;
+}
+
+.check-user-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.check-user-label {
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    color: var(--text-color, #fff4df);
+}
+
+.check-user-email {
+    margin-top: 17px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    background: linear-gradient(93deg, #f90 -9.77%, #8c14fc 123.89%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.check-change-link {
+    margin-top: 60px;
+    align-self: center;
+    flex-grow: 1;
+    flex-basis: auto;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    color: var(--primary-color, #8c31ff);
+}
+
+.check-payment-methods-label {
+    margin-top: 47px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    color: var(--text-color, #fff4df);
+}
+
+.check-payment-methods-image {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 22px;
+    align-self: center;
+    aspect-ratio: 11.11;
+    object-fit: auto;
+    object-position: center;
+}
+
+.check-summary-container {
+    display: flex;
+    flex-direction: column;
+    width: 464px;
+    height: 655px;
+    max-width: 100%;
+    color: var(--text-color, #fff4df);
+    white-space: nowrap;
+}
+
+.check-summary-title {
+    color: var(--Text-Color, #FFF4DF);
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.check-summary-divider {
+    width: 464px;
+    height: 0.6px;
+    margin-top: 40px;
+    background: var(--Text-Color, #FFF4DF);
+}
+
+.check-subscription-details {
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.check-subscription-label {
+    font-family: Open Sans, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.check-subscription-price {
+    font-family: Open Sans, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    text-align: right;
+}
+
+.check-summary-divider-2 {
+    width: 464px;
+    height: 0.6px;
+    margin-top: 40px;
+    background: var(--Text-Color, #FFF4DF);
+}
+
+.check-price-breakdown {
+    display: flex;
+    flex-direction: column;
+    margin: 45px 246px 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-color, #fff4df);
+}
+
+.check-subtotal-label {
+    font-family: Open Sans, sans-serif;
+}
+
+.check-tax-label {
+    margin-top: 32px;
+    font-family: Open Sans, sans-serif;
+}
+
+.check-vat-label {
+    margin-top: 28px;
+    font-family: Open Sans, sans-serif;
+}
+
+.check-price-values {
+    display: flex;
+    flex-direction: column;
+    width: 116px;
+    max-width: 100%;
+    margin-top: -107px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    color: var(--text-color, #fff4df);
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.check-subtotal-value {
+    font-family: Open Sans, sans-serif;
+}
+
+.check-tax-values {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.check-tax-value {
+    font-family: Open Sans, sans-serif;
+}
+
+.check-vat-value {
+    margin-top: 30px;
+    font-family: Open Sans, sans-serif;
+}
+
+.check-total-section {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    max-width: 1473px;
+    margin-top: 25px;
+}
+
+.check-gst-container {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    width: 130px;
+    max-width: 100%;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.check-gst-label {
+    font: 18px Open Sans, sans-serif;
+    color: var(--text-color, #fff4df);
+}
+
+.check-gst-value {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 22px;
+    padding: 19px 20px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    font: 14px Open Sans, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.check-total-value {
+    margin-top: -69px;
+    margin-right: 0;
+    font: 700 20px Open Sans, sans-serif;
+    text-align: right;
+    color: var(--text-color, #fff4df);
+    z-index: 10;
+}
+
+.check-due-now-label {
+    margin: -15px 355px 0 0;
+    font: 700 20px Open Sans, sans-serif;
+    color: var(--text-color, #fff4df);
+}
+
+.check-payment-details {
+    display: flex;
+    flex-direction: column;
+    width: 1283px;
+    max-width: 100%;
+    margin-top: 6px;
+}
+
+.check-mobile-number-input {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 237px;
+    max-width: 100%;
+    padding: 19px 20px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    font: 400 14px Open Sans, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.check-payment-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: end;
+    width: 462px;
+    max-width: 100%;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.check-paypal-info {
+    align-self: stretch;
+    font: 400 12px Open Sans, sans-serif;
+    color: var(--text-color, #fff4df);
+}
+
+.check-proceed-to-pay-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 64px;
+    padding: 13px 33px;
+    border: 2px solid #f90;
+    border-radius: 20px;
+}
+
+.check-proceed-to-pay-text {
+    font-family: Open Sans, sans-serif;
+    background: linear-gradient(92deg, #f90 -21.66%, #8c14fc 114.82%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.check-back-link {
+    margin-top: 37px;
+    font-family: Open Sans, sans-serif;
+    background: linear-gradient(92deg, #f90 -21.66%, #8c14fc 114.82%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,152 @@
+.footer-container {
+  background-color: #10100F;
+  padding: 4rem 0;
+  font-family: Arial, sans-serif;
+  /* Adjust to match your design */
+}
+
+.footer-hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  margin-bottom: 24px;
+}
+
+.subscription_links {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1920px;
+  /* Adjust to your container width */
+  margin: 0 auto;
+}
+
+.footer-subscription {
+  max-width: 60%;
+  color: #fff;
+}
+
+.footer-subscription-text {
+  color: var(--Text-Color, #FFF4DF);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 40%;
+}
+
+.footer-link-items {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+}
+
+.footer-logo h1 {
+  text-align: left;
+  font-size: 48px;
+  margin: auto;
+}
+
+.footer-link-items a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-logo {
+  color: var(--Text-Color, #FFF4DF);
+  font-family: 'Karantina', sans-serif;
+  /* Ensure the font is correctly referenced */
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  display: block;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  /* Adjust to your container width */
+  margin: 0 auto;
+}
+
+.social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.website-rights {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  /* Adjust to match the spacing in your image */
+}
+
+.social-icon-link {
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-icon-link:hover {
+  color: #8C31FF;
+  /* Adjust hover color if needed */
+  transform: translateY(-2px);
+  /* Simple hover effect, remove if not needed */
+}
+
+@media screen and (max-width: 820px) {
+  .subscription_links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-subscription {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .footer-links {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .footer-link-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .social-media-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons {
+    margin-top: 2rem;
+  }
+
+  .footer-logo-book,
+  .footer-logo-boulevard {
+    font-size: 1.5rem;
+  }
+}

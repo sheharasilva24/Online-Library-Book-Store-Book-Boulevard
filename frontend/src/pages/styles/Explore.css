@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+
+
+.explore-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.explore-container .explore-profileimg {
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+.explore-profile p {
+    font-size: 1.5rem;
+}
+
+.explore-books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+    width: auto;
+}
+
+.explore-books .one {
+    display: flex;
+    width: 33%;
+}
+
+.explore-books .explore-one .explore-des {
+    text-align: justify;
+    margin-left: 10%;
+    font-size: 0.7rem;
+}
+
+.explore-books .explore-one button {
+    color: white;
+    padding: 2% 10%;
+    border: 3px solid red;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.explore-books .explore-one button:hover {
+    background-color: red;
+    color: yellow;
+}
+
+.explore-profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.explore-profile-image {
+    width: 50px;
+    /* Adjust size as needed */
+    height: 50px;
+    /* Adjust size as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.explore-username {
+    font-size: 1.2em;
+}

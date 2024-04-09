@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Book 1",
+      "author": "Author 1",
+      "description": "Description of Book 1",
+      "authorDescription": "Description of Author 1",
+      "image": "https://i.ibb.co/gtrh7VC/10-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Book 2",
+      "author": "Author 2",
+      "description": "Description of Book 2",
+      "authorDescription": "Description of Author 2",
+      "image": "https://i.ibb.co/gtrh7VC/10-1.png"
+    },
+    {
+      "id": 3,
+      "title": "Book 3",
+      "author": "Author 3",
+      "description": "Description of Book 3",
+      "authorDescription": "Description of Author 3",
+      "image": "https://i.ibb.co/gtrh7VC/10-1.png"
+    }
+  ]

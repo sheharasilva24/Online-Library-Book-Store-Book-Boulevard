@@ -1,0 +1,172 @@
+/* RegistrationPage.css */
+.registration-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #19181D;
+    /* Adjust background color as needed */
+    font-family: Roboto;
+}
+
+.registration-form {
+    background: #131215;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 3000px;
+}
+
+.registration-form h2 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    text-align: left;
+
+    color: var(--Text-Color, #FFF4DF);
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: 92%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #222;
+}
+
+.Register-box-button {
+    padding: 10px 43px;
+    outline: none;
+    outline: none;
+    position: relative;
+    border-radius: 20px;
+    background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+
+}
+
+.buttons-reg-form {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.Register-box-button::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 20px;
+    background-color: #19181D;
+    z-index: -1;
+    transition: 200ms
+}
+
+.Register-box-button::after {
+    content: attr(data);
+    font-size: 16px;
+    background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 200ms;
+}
+
+.Register-box-button:hover::before {
+    opacity: 0%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Register-box-button:hover::after {
+    color: #19181D;
+}
+
+
+
+.Login-button {
+    padding: 10px 43px;
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+    cursor: pointer;
+    white-space: nowrap;
+    /* Prevent line break */
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* Center the button horizontally */
+}
+
+.Login-button::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 20px;
+    background-color: #19181D;
+    z-index: -1;
+    transition: 200ms
+}
+
+.Login-button::after {
+    content: attr(data);
+    font-size: 16px;
+    background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 200ms;
+}
+
+.Login-button:hover::before {
+    opacity: 0%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Login-button:hover::after {
+    color: #19181D;
+}
+
+.error-message {
+    color: var(--Text-Color, #ff0000);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}

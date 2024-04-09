@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9d811d7-6459-42cb-8c39-3311404376e4" name="Changes" comment="cheked user subscription">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/BookDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/BookDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/styles/BookDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/styles/BookDetails.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/release/overall" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dev-katz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e436fc46-d117-4912-9dcd-554d08546ed8" />
+        <option name="url" value="https://github.com/dev-katz/Book-Boulevard-CGP-" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2eAPSo2QGaLYmAa4heOfBYqUjVc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.Routes.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev/backend&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KATZ/Desktop/MERN/frontend/src/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KATZ\Desktop\MERN\frontend\src\pages" />
+      <recent name="C:\Users\KATZ\Desktop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KATZ\Desktop\MERN\frontend\src\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9d811d7-6459-42cb-8c39-3311404376e4" name="Changes" comment="" />
+      <created>1711344413812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711344413812</updated>
+      <workItem from="1711344415185" duration="133000" />
+      <workItem from="1711344572767" duration="759000" />
+      <workItem from="1711351470294" duration="4236000" />
+      <workItem from="1711356364846" duration="2186000" />
+      <workItem from="1711358591962" duration="1608000" />
+      <workItem from="1711429257508" duration="736000" />
+      <workItem from="1711460479653" duration="219000" />
+      <workItem from="1711460711284" duration="327000" />
+      <workItem from="1711461173168" duration="7264000" />
+      <workItem from="1711472982594" duration="3209000" />
+      <workItem from="1711506189253" duration="4789000" />
+      <workItem from="1711637535406" duration="11524000" />
+      <workItem from="1711775066789" duration="11189000" />
+      <workItem from="1711798003138" duration="5000" />
+      <workItem from="1711798186198" duration="33000" />
+      <workItem from="1711798241892" duration="216000" />
+      <workItem from="1711815309595" duration="14000" />
+      <workItem from="1711924297013" duration="1181000" />
+      <workItem from="1711925818274" duration="3723000" />
+      <workItem from="1711930018255" duration="901000" />
+      <workItem from="1711939785277" duration="154000" />
+      <workItem from="1711939948463" duration="116000" />
+      <workItem from="1711940075889" duration="45000" />
+      <workItem from="1711940130917" duration="386000" />
+      <workItem from="1711940563500" duration="194000" />
+      <workItem from="1711940768701" duration="1138000" />
+      <workItem from="1711941967588" duration="352000" />
+      <workItem from="1711942362962" duration="12000" />
+      <workItem from="1711942745417" duration="48000" />
+      <workItem from="1711942869630" duration="6366000" />
+      <workItem from="1711950767906" duration="11868000" />
+      <workItem from="1711967422809" duration="612000" />
+    </task>
+    <task id="LOCAL-00001" summary="update user authentication">
+      <option name="closed" value="true" />
+      <created>1711353658983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711353658983</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update user authentication">
+      <option name="closed" value="true" />
+      <created>1711354016598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711354016598</updated>
+    </task>
+    <task id="LOCAL-00003" summary="books cards">
+      <option name="closed" value="true" />
+      <created>1711354680070</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711354680070</updated>
+    </task>
+    <task id="LOCAL-00004" summary="books cards">
+      <option name="closed" value="true" />
+      <created>1711357408527</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711357408528</updated>
+    </task>
+    <task id="LOCAL-00005" summary="books cards">
+      <option name="closed" value="true" />
+      <created>1711357567050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711357567050</updated>
+    </task>
+    <task id="LOCAL-00006" summary="user profile management backend">
+      <option name="closed" value="true" />
+      <created>1711784791168</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711784791168</updated>
+    </task>
+    <task id="LOCAL-00007" summary="user profile management backend">
+      <option name="closed" value="true" />
+      <created>1711785997728</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711785997728</updated>
+    </task>
+    <task id="LOCAL-00008" summary="testominiel backend">
+      <option name="closed" value="true" />
+      <created>1711945739286</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711945739286</updated>
+    </task>
+    <task id="LOCAL-00009" summary="testominiel backend">
+      <option name="closed" value="true" />
+      <created>1711945745887</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711945745887</updated>
+    </task>
+    <task id="LOCAL-00010" summary="testominiel backend with profile image">
+      <option name="closed" value="true" />
+      <created>1711946471080</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711946471080</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bookdetails backend linked">
+      <option name="closed" value="true" />
+      <created>1711952209747</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711952209747</updated>
+    </task>
+    <task id="LOCAL-00012" summary="cheked user subscription">
+      <option name="closed" value="true" />
+      <created>1711954698225</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711954698225</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="f4ad7456-1f75-4659-955f-f7189afd7014" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="f4ad7456-1f75-4659-955f-f7189afd7014">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update user authentication" />
+    <MESSAGE value="books cards" />
+    <MESSAGE value="user profile management backend" />
+    <MESSAGE value="testominiel backend" />
+    <MESSAGE value="testominiel backend with profile image" />
+    <MESSAGE value="bookdetails backend linked" />
+    <MESSAGE value="cheked user subscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="cheked user subscription" />
+  </component>
+</project>

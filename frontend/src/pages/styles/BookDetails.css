@@ -1,0 +1,198 @@
+.book-details-page {
+  background-color: #19181D; /* Set the background color for the Book Details page */
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+
+/* Existing styles */
+.book-container {
+  display: flex;
+  align-items: flex-start;
+  margin: 100px; /* Adjusted for example */
+  gap: 20px;
+}
+
+/* Add this to make the iframe larger and potentially override margin effects */
+.iframe-container {
+  width: calc(100% + 40px); /* Adjust based on your specific margins */
+  margin-left: -20px; /* Adjust based on your specific margins */
+  margin-right: -20px; /* Adjust based on your specific margins */
+  margin-top: 20px; /* Space between the book details and the iframe */
+}
+
+iframe {
+  width: 100%; /* Make the iframe take the full width of its container */
+  height: 1000px; /* Adjust the height as needed to make it larger */
+  border: none;
+}
+
+
+
+.book-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the contents (image and button) on the cross axis */
+}
+
+.book-image img {
+  width: 389px; /* Sets width of the image */
+  height: 584px; /* Sets height of the image */
+  object-fit: cover; /* Adjusts the image to cover the area, consider this depending on your actual images */
+}
+
+.book-actions {
+  width: 10%; /* Ensures the actions take the full width of the parent */
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+
+  margin: 10px/* Adds space between the image and the button */
+
+}
+
+
+.action-button {
+  margin-top: 64px;
+  margin-bottom: 20px;
+  padding: 10px 43px;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+  background: linear-gradient(92deg, #F90 -21.66%, #8C14FC 114.82%);
+  cursor: pointer;
+  white-space: nowrap;
+  /* Prevent line break */
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFF4DF;
+  transition: color 200ms ease-in-out;
+  margin-left: 25%;
+}
+
+.action-button::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 20px;
+  background-color: #19181D;
+  z-index: -1;
+  transition: 200ms;
+}
+
+.action-button::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 20px;
+  font-size: 18px;
+  /* Adjusted to match the button text size for consistency */
+  font-weight: 700;
+  /* Ensure weight matches */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 200ms;
+}
+
+.action-button:hover::before {
+  opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+.action-button:hover {
+  background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+  transition: 200ms;
+}
+
+
+.book-info {
+  /* Aligns the book details text */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Responsive adjustments, if necessary */
+@media (max-width: 768px) {
+  .book-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.back-button {
+  display: block;
+  margin: 20px 30px ;
+  padding: 0.5rem 1rem;
+  transition: color 200ms ease-in-out;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  white-space: nowrap;
+  background-color: #19181D;
+}
+
+.back-button::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background-color: #19181D;
+  z-index: -1;
+  transition: 200ms;
+}
+
+.back-button::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 18px;
+  /* Adjusted to match the button text size for consistency */
+  font-weight: 700;
+  /* Ensure weight matches */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 200ms;
+
+}
+
+.back-button:hover::before {
+  opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+.back-button:hover {
+  background-color: #19181D;;
+  transition: 200ms;
+}
+

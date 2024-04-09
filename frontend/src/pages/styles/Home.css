@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+
+
+
+.home-container {
+    text-align: center;
+    background: var(--Background, #19181D);
+}
+
+.home-landimg img {
+    width: 93%;
+    height: auto;
+    margin-top: 60px;
+    margin: 72px 0px 60px 0px;
+}
+
+.home-p1 {
+    color: var(--Text-Color, #FFF4DF);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home-part2 {
+    color: var(--Text-Color, #FFF4DF);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home-part2 span {
+    background-color: red;
+    padding: 0 0.5% 0 0.5%;
+}
+
+.home-part2 .p1 {
+    font-size: 1rem;
+}
+
+.home-part2 .home-p2 {
+
+    font-size: 0.8rem;
+}
+
+.home-p2 {
+    color: var(--Text-Color, #FFF4DF);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home-part2 h1 {
+    color: var(--Text-Color, #FFF4DF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home-part2 button {
+    color: #FFF4DF;
+    border: 3px solid #19181D;
+    border-radius: 100px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.home-part2 button:hover {
+    background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+    transition: 200ms;
+}
+
+.home-part2 .home-but2 {
+    padding-top: 3%;
+}
+
+.home-part3 {
+    padding-top: 8%;
+}
+
+.home-part3 .span1 {
+    background-color: red;
+    padding: 0 0.5% 0 4%;
+
+}
+
+.home-part3 .span2 {
+    background-color: red;
+    padding: 0 4% 0 0.5%;
+
+}
+
+.home-part3 h1 {
+    color: var(--Text-Color, #FFF4DF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home-part3 .p1 {
+    font-size: 1rem;
+}
+
+.home-part3 .p2 {
+
+    font-size: 0.8rem;
+}
+
+.home-part3 img {
+    width: 80%;
+    height: auto;
+}
+
+
+.home-part3 button {
+    color: #FFF4DF;
+    border: 3px solid #19181D;
+    border-radius: 100px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.home-part3 button:hover {
+    background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+    transition: 200ms;
+}
+
+.home-part3 .home-but3 {
+    padding-top: 3%;
+}
+
+.home-part4 {
+    padding-top: 6%;
+}
+
+.home-part4 h1 {
+    color: var(--Text-Color, #FFF4DF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home-part4 span {
+    background-color: red;
+    padding: 0 0.5% 0 0.5%;
+
+}
+
+.home-part4 .home-span1 {
+    background-color: red;
+    padding: 0 0.5% 0 0.5%;
+}
+
+.home-span1 {
+    background-color: red;
+    padding: 0 0.5% 0 0.5%;
+}
+
+.home-span2 {
+    background-color: red;
+    padding: 0 0.5% 0 0.5%;
+}
+
+.home-part4 img {
+    width: 80%;
+    height: auto;
+}
+
+.home-part4 button {
+    color: white;
+    border-radius: 100px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.home-part4 button a {
+    text-decoration: none;
+}
+
+.home-part4 button:hover {
+    background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+    transition: 200ms;
+}
+
+.home-part4 .home-but4 {
+    padding-top: 3%;
+}
+
+.home-part41 {
+    padding-top: 1%;
+}
+
+.home-part41 .home-but4 {
+    padding-bottom: 5%;
+}

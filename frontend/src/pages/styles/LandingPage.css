@@ -1,0 +1,338 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.landing-landing-container {
+  background-color: #19181D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.landing-text-container span {
+  background-color: red;
+  padding: 0 0.5% 0 0.5%;
+}
+
+.landing-background-image {
+  background-image: url('../assests/landing-heroimage-left.png');
+  background-size: cover;
+  background-position: left;
+  flex-grow: 1;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  animation: slideFromLeft 1s forwards;
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%);
+    /* Start off-screen to the left */
+    opacity: 0;
+    /* Start with opacity 0 */
+  }
+
+  to {
+    transform: translateX(0);
+    /* Slide in to the center */
+    opacity: 1;
+    /* End with opacity 1 */
+  }
+}
+
+.landing-button-container {
+  display: flex;
+  justify-content: center;
+  /* Center the button horizontally */
+  align-items: center;
+  /* Align items vertically if needed */
+}
+
+.landing-content-container {
+  width: 50%;
+  z-index: 10;
+}
+
+@keyframes highlight-animation {
+  from {
+    opacity: 0;
+    /* Start with opacity 0 */
+  }
+
+  to {
+    opacity: 0.5;
+    /* End with opacity 0.5 (or any desired value) */
+  }
+}
+
+/* Rest of your existing CSS */
+
+.landing-text-container {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.landing-one {
+  font-family: Roboto;
+  color: var(--Text-Color, #FFF4DF);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+  margin-top: auto;
+}
+
+.landing-two {
+  color: var(--Text-Color, #FFF4DF);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.landing-parag {
+  color: var(--Text-Color, #FFF4DF);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.landing-btn {
+  padding: 10px 43px;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+  background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+  cursor: pointer;
+  white-space: nowrap;
+  /* Prevent line break */
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 auto;
+  /* Center the button horizontally */
+}
+
+.landing-btn::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 20px;
+  background-color: #19181D;
+  z-index: -1;
+  transition: 200ms
+}
+
+.landing-btn::after {
+  content: attr(data);
+  font-size: 16px;
+  background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 200ms;
+}
+
+.landing-btn:hover::before {
+  opacity: 0%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.landing-btn:hover::after {
+  color: #19181D;
+}
+
+/* Base styles */
+
+/* For Extra Small (XS) Devices */
+@media (max-width: 576px) {
+  /* CSS rules specific to extra small devices */
+}
+
+/* For Small (SM) Devices */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* CSS rules specific to small devices */
+}
+
+/* For Medium (MD) Devices */
+@media (min-width: 769px) and (max-width: 992px) {
+  .landing-background-image {
+    background-image: url('../assests/landing-heroimage-left.png');
+    background-size: cover;
+    background-position: left;
+    flex-grow: 1;
+    height: 100%;
+    width: auto;
+
+    position: relative;
+    /* Enable absolute positioning for the image */
+  }
+
+  .landing-one {
+    font-family: Roboto;
+    color: var(--Text-Color, #FFF4DF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: auto;
+  }
+
+  .landing-two {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--Text-Color, #FFF4DF);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+
+  .landing-parag {
+    color: var(--Text-Color, #FFF4DF);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+
+  /* CSS rules specific to medium devices */
+}
+
+@media (max-width: 576px) {
+  .landing-landing-container {
+    background-color: #19181D;
+    /* Set background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Ensure content is stacked vertically */
+    overflow: hidden;
+    /* Hide overflow content */
+  }
+
+  .landing-background-image {
+    background-image: url('../assests/Book-mobile.png');
+    background-position: center top;
+    /* Adjusted for better positioning */
+    width: 100%;
+    /* Make sure the image covers the entire width */
+    animation: slideFromTop 1s forwards;
+  }
+
+  .landing-content-container {
+    width: 100%;
+    z-index: 1;
+    /* Ensure the content container is above the image */
+  }
+
+  .landing-text-container {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    z-index: -1;
+  }
+
+  .landing-one,
+  .landing-two,
+  .landing-parag {
+    color: var(--Text-Color, #FFF4DF);
+  }
+
+  .landing-one {
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    white-space: nowrap;
+    /* Prevent line break */
+    margin-bottom: 10px;
+    /* Add some space below heading */
+    margin: 0 auto;
+    /* Center the text horizontally */
+  }
+
+  .landing-two {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+    /* Add some space below subheading */
+  }
+
+  .landing-parag {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    /* Add some space below paragraph */
+  }
+
+  .landing-btn {
+    padding: 10px 43px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: linear-gradient(92deg, #F90 -32.09%, #8C31FF 96.86%);
+    cursor: pointer;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40%;
+  }
+
+  .landing-button-container {
+    display: flex;
+    justify-content: center;
+    /* Center the button horizontally */
+    align-items: center;
+    /* Align items vertically if needed */
+  }
+
+  @keyframes slideFromTop {
+    from {
+      transform: translateY(-100%);
+      /* Start off-screen above the page */
+      opacity: 0;
+      /* Start with opacity 0 */
+    }
+
+    to {
+      transform: translateY(0);
+      /* Slide in to the center */
+      opacity: 1;
+      /* End with opacity 1 */
+    }
+  }
+}
